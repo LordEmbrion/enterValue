@@ -10,5 +10,7 @@ int main () {
     else {
         std::cout << "Nice job! You can follow instructions!\n";
     }
+    std::cin.ignore();
+    std::cin.get();
     return 0;
 }
